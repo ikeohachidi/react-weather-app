@@ -8,4 +8,4 @@ const Examples = () => {
     );
 }
 
-export default Examples;
+export default Examples; 

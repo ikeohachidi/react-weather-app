@@ -1,6 +1,7 @@
 const axios = require("axios")
 
-const OPEN_WEATHER_MAP_URL = "https://api.openweathermap.org/data/2.5/weather?appid=c7f42dff99a576f1eab8a55f0f7f1411&units=metric"
+// this won't work unless the openweathermap user api key is placed in 'PLACE API KEY HERE' without the quotes
+const OPEN_WEATHER_MAP_URL = "https://api.openweathermap.org/data/2.5/weather?appid='PLACE API KEY HERE'&units=metric"
 
 module.exports = {
     getTemp: function(location) {
